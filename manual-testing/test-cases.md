@@ -34,6 +34,7 @@
 - **Expected:** Search bar exists and filters products
 - **Actual:** No search bar or search feature found anywhere on Products page
 - **Result:** FAIL
+- **Screenshot:** ![Test 4 - Search Bar Uavailable](test4-search-bar-unavailable-saucedemo.png)
 
 ## Test 5: Search empty
 - **Steps:** N/A - No search feature exists
