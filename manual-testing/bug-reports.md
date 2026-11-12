@@ -1,6 +1,6 @@
 # Bug Reports
 
-## Bug 1: [Title]
+## Bug Example : [Title]
 - **Steps:** 1. 2. 3.
 - **Expected:** What should happen
 - **Actual:** What did happen
@@ -8,10 +8,14 @@
 - **Environment:** Chrome, Windows, Laptop
 - **Severity:** Low / Medium / High
 
-## HOW TO ADD SCREENSHOT
 
-1. Take screenshot, save as `bug1.png`
-2. Upload it to same folder in GitHub
-3. In.md write:
-
-![bug screenshot](bug1.png)
+## Bug 1: No Search Functionality
+- **Steps:**
+1. Login with standard_user / secret_sauce
+2. Go to Products page
+3. Look for search bar
+- **Expected:** User can search for products by name
+- **Actual:** No search bar or search function exists
+- **Screenshot:** ![No Search](test4-no-search.png)
+- **Environment:** Chrome, SauceDemo
+- **Severity:** Medium
