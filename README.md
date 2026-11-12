@@ -1,7 +1,7 @@
 # QA Testing Projects
 Manual and API and Automation QA Testing Projects
 
-Hi, I'm Sam Chamas. I'm learning Manual, API and Automation QA.
+Hi, I'm Sam Ch. I'm learning Manual, API and Automation QA.
 
 Currently practicing on SauceDemo and building test cases, bug reports, and automation.
 
