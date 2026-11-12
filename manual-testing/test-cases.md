@@ -29,3 +29,15 @@
 - **Result:** PASS
 - **Screenshot:** ![Test 3 - Empty Password](test2-empty-password-saucedemo.png)
 
+## Test 4: Search valid
+- **Steps:** Look for search bar on Products page, try to search "Backpack"
+- **Expected:** Search bar exists and filters products
+- **Actual:** No search bar or search feature found anywhere on Products page
+- **Result:** FAIL
+
+## Test 5: Search empty
+- **Steps:** N/A - No search feature exists
+- **Expected:** N/A
+- **Actual:** N/A
+- **Result:** N/A - Blocked by Test 4
+
