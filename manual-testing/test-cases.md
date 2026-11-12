@@ -25,7 +25,7 @@
 2. Leave username and password empty
 3. Click Login
 - **Expected:** Error "Username is required"
-- **Actual:** Red error shows "Epic sadface: Username is required"
+- **Actual:** Red error shows "Epic sadface: Username is required". Stayed on login page.
 - **Result:** PASS
-- **Screenshot:** ![Test 2 - Wrong Password](test2-wrong-password-saucedemo.png)
+- **Screenshot:** ![Test 3 - Empty Password](test2-empty-password-saucedemo.png)
 
