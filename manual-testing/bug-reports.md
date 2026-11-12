@@ -16,6 +16,6 @@
 3. Look for search bar
 - **Expected:** User can search for products by name
 - **Actual:** No search bar or search function exists
-- **Screenshot:** ![No Search](test4-no-search.png)
+- **Screenshot:** ![Test 4 - Search Bar Uavailable](test4-search-bar-unavailable-saucedemo.png)
 - **Environment:** Chrome, SauceDemo
 - **Severity:** Medium
