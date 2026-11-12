@@ -2,9 +2,9 @@
 
 ## Test 1: Add to Cart
 - **Steps:**
-  1. Go to saucedemo.com
-  2. Login: standard_user / secret_sauce
-  3. Click Add to Cart on 1 product
+1. Go to saucedemo.com
+2. Login: standard_user / secret_sauce
+3. Click Add to Cart on 1 product
 - **Expected:** Cart icon shows 1
 - **Actual:** Cart icon shows 1
 - **Result:** PASS
