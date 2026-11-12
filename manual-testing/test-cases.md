@@ -9,8 +9,18 @@
 - **Result:** PASS
 - **Screenshot:** ![Test 1 - Login Pass](test1-login-pass-saucedemo.png)
 
+## Test 2: Login wrong password
+- **Steps:**
+1. Go to saucedemo.com
+2. Login: standard_user / wrong
+3. Click Login
+- **Expected:** Error message shows, stay on login page
+- **Actual:** Red error shows "Epic sadface: Username and password do not match any user in this service"
+- **Result:** PASS
+- **Screenshot:** ![Test 2 - Wrong Password](test2-wrong-password-saucedemo.png)
 
-## Test 2: Add to Cart
+
+## Test 3: Add to Cart
 - **Steps:**
 1. Go to saucedemo.com
 2. Login: standard_user / secret_sauce
@@ -19,11 +29,3 @@
 - **Actual:** Cart icon shows 1
 - **Result:** PASS
 
-## Test 3: Login Wrong Password
-- **Steps:**
-1. Go to saucedemo.com
-2. Login: standard_user / wrong
-3. Click Login
-- **Expected:** Show error message
-- **Actual:** the_error
-- **Result:** PASS_or_FAIL
