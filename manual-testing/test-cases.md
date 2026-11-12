@@ -19,13 +19,13 @@
 - **Result:** PASS
 - **Screenshot:** ![Test 2 - Wrong Password](test2-wrong-password-saucedemo.png)
 
-
-## Test 3: Add to Cart
+## Test 3: Login enpty
 - **Steps:**
 1. Go to saucedemo.com
-2. Login: standard_user / secret_sauce
-3. Click Add to Cart on 1 product
-- **Expected:** Cart icon shows 1
-- **Actual:** Cart icon shows 1
+2. Leave username and password empty
+3. Click Login
+- **Expected:** Error "Username is required"
+- **Actual:** Red error shows "Epic sadface: Username is required"
 - **Result:** PASS
+- **Screenshot:** ![Test 2 - Wrong Password](test2-wrong-password-saucedemo.png)
 
