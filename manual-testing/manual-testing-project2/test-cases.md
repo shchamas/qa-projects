@@ -20,3 +20,10 @@
 - **Actual:** Login failed, red banner "Your password is invalid!", stayed on Login Page
 - **Result:** PASS
 - **Screenshot:** ![Test 3 - Wrong Password](test3-wrong-password.png)
+
+## Test 4: Login - Wrong Username
+- **Steps:** 1. Go to Form Authentication 2. Username: wronguser 3. Password: SuperSecretPassword! 4. Click Login
+- **Expected:** Login fails, shows error "Your username is invalid!"
+- **Actual:** Login failed, red banner "Your username is invalid!", stayed on Login Page
+- **Result:** PASS
+- **Screenshot:** ![Test 4 - Wrong Username](test4-wrong-username.png)
