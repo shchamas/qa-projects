@@ -4,6 +4,6 @@
 - **Steps:** 1. Go to https://the-internet.herokuapp.com/broken_images 2. Observe images
 - **Expected:** All 3 images display correctly
 - **Actual:** First 2 images are broken, only 3rd image loads
-- **Screenshot:** ![Bug 1.](test1-broken-images.png)
+- **Screenshot:** ![Test 1 - Broken Images.](test1-broken-images.png)
 - **Environment:** Chrome on Desktop
 - **Severity:** Medium
