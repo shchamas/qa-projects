@@ -13,3 +13,10 @@
 - **Actual:** Login succeeded, green banner "You logged into a secure area!", page shows "Secure Area" and "Logged in as tomsmith"
 - **Result:** PASS
 - **Screenshot:** ![Test 2 - Login Success](test2-login-success.png)
+
+## Test 3: Login - Wrong Password
+- **Steps:** 1. Go to Form Authentication 2. Username: tomsmith 3. Password: wrongpassword 4. Click Login
+- **Expected:** Login fails, shows error "Your password is invalid!"
+- **Actual:** Login failed, red banner "Your password is invalid!", stayed on Login Page
+- **Result:** PASS
+- **Screenshot:** ![Test 3 - Wrong Password](test3-wrong-password.png)
