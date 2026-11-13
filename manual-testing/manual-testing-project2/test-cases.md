@@ -7,3 +7,9 @@
 - **Result:** FAIL
 - **Screenshot:** ![Test 1 - Broken Images](test1-broken-images.png)
 
+## Test 2: Login - Valid Credentials
+- **Steps:** 1. Go to Form Authentication 2. Username: tomsmith 3. Password: SuperSecretPassword! 4. Click Login
+- **Expected:** Login succeeds, shows Secure Area page with success message
+- **Actual:** Login succeeded, green banner "You logged into a secure area!", page shows "Secure Area" and "Logged in as tomsmith"
+- **Result:** PASS
+- **Screenshot:** ![Test 2 - Login Success](test2-login-success.png)
