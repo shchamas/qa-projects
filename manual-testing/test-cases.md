@@ -55,3 +55,11 @@
 - **Result:** FAIL
 - **Screenshot:** ![Test 8 - Checkout Empty](test8-checkout-empty-saucedemo.png)
 
+## Test 9: Refresh during checkout
+- **Steps:** 1. Fill checkout info 2. Click Continue 3. Press Refresh on Overview page
+- **Expected:** Stay on Overview page, no crash, no data loss
+- **Actual:** Stayed on Checkout: Overview page after refresh. Page shows Payment Info SauceCard #31337, Shipping Info, Total $0.00. Name is not displayed on this page by design.
+- **Result:** PASS
+- **Screenshot:** ![Test 9 - Refresh During Checkout](test9-refresh-checkout-saucedemo.png)
+
+
