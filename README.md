@@ -35,4 +35,4 @@ Currently practicing on SauceDemo and building test cases, bug reports, and auto
 ### Files
 - `manual-testing/test-cases.md` - All 11 test cases with steps + results
 - `manual-testing/bug-reports.md` - All 3 bugs with steps + screenshots
-- `manual-testing/*.png` - Screenshots as evidence
+- `manual-testing/*.png` - Screenshots as proof of concept
