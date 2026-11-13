@@ -36,3 +36,23 @@ Currently practicing on SauceDemo and building test cases, bug reports, and auto
 - `manual-testing/test-cases.md` - All 11 test cases with steps + results
 - `manual-testing/bug-reports.md` - All 3 bugs with steps + screenshots
 - `manual-testing/*.png` - Screenshots as proof of concept
+
+## Project 2: The Internet - Manual Testing
+
+**Tested App:** https://the-internet.herokuapp.com
+**Date:** Nov 14, 2026
+**Environment:** Chrome on Desktop + Safari on iPhone
+
+### Results
+- **Total Tests:** 5
+- **PASS:** 4 (Test 2, 3, 4, 5)
+- **FAIL:** 1 (Test 1 - Broken Images)
+
+### Bugs Found: 1
+1. **Bug 1 - 2 Broken Images on Broken Images Page** - Medium
+
+### Files
+- `manual-testing-project2/test-cases.md` - All 5 test cases with steps + results
+- `manual-testing-project2/bug-reports.md` - Bug with steps + screenshot
+- `manual-testing-project2/*.png` - Screenshots as proof of concept
+
