@@ -1,14 +1,5 @@
 # Bug Reports
 
-## Bug Example : [Title]
-- **Steps:** 1. 2. 3.
-- **Expected:** What should happen
-- **Actual:** What did happen
-- **Screenshot:** [add image]
-- **Environment:** Chrome, Windows, Laptop
-- **Severity:** Low / Medium / High
-
-
 ## Bug 1: No Search Functionality
 - **Steps:**
 1. Login with standard_user / secret_sauce
@@ -19,3 +10,10 @@
 - **Screenshot:** ![Test 4 - Search Bar Uavailable](test4-search-bar-unavailable-saucedemo.png)
 - **Environment:** Chrome, SauceDemo
 - **Severity:** Medium
+
+## Bug 2: No Quantity Selection
+- **Steps:** 1. Login 2. On Products page, try to change quantity
+- **Expected:** User can set quantity 0, 2, etc.
+- **Actual:** No quantity field, only Add / Remove for 1 item
+- **Screenshot:** ![Test 6 - No Quantity](test7-add-0-quantity-saucedemo.png)
+- **Severity:** Low
