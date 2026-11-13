@@ -62,4 +62,11 @@
 - **Result:** PASS
 - **Screenshot:** ![Test 9 - Refresh During Checkout](test9-refresh-checkout-saucedemo.png)
 
+## Test 10: Phone test
+- **Steps:** 1. Open saucedemo.com on phone 2. Login standard_user 3. Add Backpack to cart
+- **Expected:** Site works on mobile, cart updates, buttons clickable
+- **Actual:** Site loaded on iPhone Safari, logged in successfully, cart shows 1 after adding Backpack. Layout is mobile-friendly.
+- **Result:** PASS
+- **Screenshot:** ![Test 10 - Phone](test10-phone.jpeg)
+
 
