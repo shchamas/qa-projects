@@ -68,7 +68,7 @@
 - **Actual:** Site loaded on iPhone Safari, logged in successfully, cart shows 1 after adding Backpack. Layout is mobile-friendly.
 - **Result:** PASS
 - **Screenshot:**
-  ![Test 10 - Phone](test10-phone.jpeg)
+ ![Test 10 - Phone](test10-phone.jpeg)
 
 ## Test 11: Remove from cart
 - **Steps:** 1. Add Backpack to cart 2. Open Cart 3. Click Remove
@@ -76,6 +76,6 @@
 - **Actual:** Backpack removed, Your Cart is empty, cart icon shows no badge.
 - **Result:** PASS
 - **Screenshot:**
-   ![Test 11 - Phone - Remove - Cart](test11-phone-remove-cart.jpeg)
+ ![Test 11 - Phone - Remove - Cart](test11-phone-remove-cart.jpeg)
 
 
