@@ -17,3 +17,10 @@
 - **Actual:** No quantity field, only Add / Remove for 1 item
 - **Screenshot:** ![Test 6 - No Quantity](test7-add-0-quantity-saucedemo.png)
 - **Severity:** Low
+
+## Bug 3: Checkout Allowed With Empty Cart
+- **Steps:** 1. Login 2. Empty cart 3. Click Cart 4. Click Checkout
+- **Expected:** System should block checkout and show "Cart is empty"
+- **Actual:** System allows user to go to Checkout: Your Information page with 0 items
+- **Screenshot:** ![Test 8 - Checkout - Empty](test8-checkout-empty-saucedemo.png)
+- **Severity:** High - User can checkout with no products
