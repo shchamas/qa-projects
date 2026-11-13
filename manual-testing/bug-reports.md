@@ -16,6 +16,7 @@
 - **Expected:** User can set quantity 0, 2, etc.
 - **Actual:** No quantity field, only Add / Remove for 1 item
 - **Screenshot:** ![Test 6 - No Quantity](test7-add-0-quantity-saucedemo.png)
+- **Environment:** Chrome, SauceDemo
 - **Severity:** Low
 
 ## Bug 3: Checkout Allowed With Empty Cart
@@ -23,4 +24,5 @@
 - **Expected:** System should block checkout and show "Cart is empty"
 - **Actual:** System allows user to go to Checkout: Your Information page with 0 items
 - **Screenshot:** ![Test 8 - Checkout - Empty](test8-checkout-empty-saucedemo.png)
+- **Environment:** Chrome, SauceDemo
 - **Severity:** High - User can checkout with no products
