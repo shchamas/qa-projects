@@ -1,29 +1,21 @@
 # Test Cases - SauceDemo
 
 ## Test 1: Login valid
-- **Steps:**
-1. Go to saucedemo.com
-2. Login: standard_user / secret_sauce
+- **Steps:** 1. Go to saucedemo.com 2. Login: standard_user / secret_sauce
 - **Expected:** Products page shows
 - **Actual:** Products page displayed with 6 products, Sauce Labs Backpack, Bike Light, Bolt T-Shirt, etc. URL changed to inventory.html
 - **Result:** PASS
 - **Screenshot:** ![Test 1 - Login Pass](test1-login-pass-saucedemo.png)
 
 ## Test 2: Login wrong password
-- **Steps:**
-1. Go to saucedemo.com
-2. Login: standard_user / wrong
-3. Click Login
+- **Steps:** 1. Go to saucedemo.com 2. Login: standard_user / wrong 3. Click Login
 - **Expected:** Error message shows, stay on login page
 - **Actual:** Red error shows "Epic sadface: Username and password do not match any user in this service"
 - **Result:** PASS
 - **Screenshot:** ![Test 2 - Wrong Password](test2-wrong-password-saucedemo.png)
 
 ## Test 3: Login enpty
-- **Steps:**
-1. Go to saucedemo.com
-2. Leave username and password empty
-3. Click Login
+- **Steps:** 1. Go to saucedemo.com 2. Leave username and password empty 3. Click Login
 - **Expected:** Error "Username is required"
 - **Actual:** Red error shows "Epic sadface: Username is required". Stayed on login page.
 - **Result:** PASS
@@ -55,3 +47,11 @@
 - **Actual:** No quantity option exists, can only add 1 of each item
 - **Result:** FAIL
 - **Screenshot:** ![Test 7 - Add 0 quantity](test7-add-0-quantity-saucedemo.png)
+
+## Test 8: Checkout empty
+- **Steps:** 1. Empty cart 2. Click Checkout
+- **Expected:** Blocked, message "Cart is empty"
+- **Actual:** Allowed to proceed to Checkout: Your Information page even with empty cart
+- **Result:** FAIL
+- **Screenshot:** ![Test 8 - Checkout Empty](test8-checkout-empty-saucedemo.png)
+
