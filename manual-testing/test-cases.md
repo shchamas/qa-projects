@@ -48,3 +48,10 @@
 - **Actual:** Cart icon shows 1, button changed to Remove. Backpack added successfully.
 - **Result:** PASS
 - **Screenshot:** ![Test 6 - Add to cart](test6-add-to-cart-saucedemo.png)
+
+## Test 7: Add 0 quantity
+- **Steps:** Try to change quantity of Backpack to 0 or 2
+- **Expected:** Can change quantity
+- **Actual:** No quantity option exists, can only add 1 of each item
+- **Result:** FAIL
+- **Screenshot:** ![Test 7 - Add 0 quantity](test7-add-0-quantity-saucedemo.png)
