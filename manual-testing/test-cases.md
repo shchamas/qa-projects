@@ -42,3 +42,9 @@
 - **Actual:** N/A
 - **Result:** N/A - Blocked by Test 4
 
+## Test 6: Add to cart
+- **Steps:** Click Add to cart on Sauce Labs Backpack
+- **Expected:** Cart icon shows 1, button changes to Remove
+- **Actual:** Cart icon shows 1, button changed to Remove. Backpack added successfully.
+- **Result:** PASS
+- **Screenshot:** ![Test 6 - Add to cart](test6-add-to-cart-saucedemo.png)
