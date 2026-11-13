@@ -69,4 +69,11 @@
 - **Result:** PASS
 - **Screenshot:** ![Test 10 - Phone](test10-phone.jpeg)
 
+## Test 11: Remove from cart
+- **Steps:** 1. Add Backpack to cart 2. Open Cart 3. Click Remove
+- **Expected:** Item removed, cart becomes empty, cart icon shows 0 / no badge
+- **Actual:** Backpack removed, Your Cart is empty, cart icon shows no badge.
+- **Result:** PASS
+- **Screenshot:** ![Test 11 - Phone - Remove - Cart](test11-phone-remove-cart.jpeg)
+
 
