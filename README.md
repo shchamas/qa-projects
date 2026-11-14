@@ -14,6 +14,7 @@ Currently practicing on SauceDemo and building test cases, bug reports, and auto
 ## Projects
 1. SauceDemo - Login, Cart and Checkout
 2. The Internet - Broken Images and Login
+3. JSONPlaceholder - API Testing with Postman
 
 ## Project 1: SauceDemo - Manual Testing
 
@@ -56,3 +57,25 @@ Currently practicing on SauceDemo and building test cases, bug reports, and auto
 - `manual-testing-project2/bug-reports.md` - Bug with steps + screenshot
 - `manual-testing-project2/*.png` - Screenshots as proof of concept
 
+## Project 3: JSONPlaceholder - API Testing with Postman
+
+**Tested API:** https://jsonplaceholder.typicode.com
+**Date:** Nov 14, 2026
+**Environment:** Postman on Desktop
+
+### Results
+- **Total Tests:** 6
+- **PASS:** 6 (Test 1, 2, 3, 4, 5, 6)
+- **FAIL:** 0
+
+### What Was Tested
+- GET All Posts - 200 OK
+- GET Single Post - 200 OK
+- GET Invalid Post - 404 Not Found (Negative Test)
+- POST Create Post - 201 Created, id: 101
+- PUT Update Post - 200 OK
+- DELETE Post - 200 OK
+
+### Files
+- `api-testing/postman-tests.md` - All 6 test cases with steps + results
+- `api-testing/api-testing-project1/*.png` - Screenshots as proof of concept
