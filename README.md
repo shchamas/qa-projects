@@ -1,7 +1,7 @@
 # QA Testing Projects
 Manual and API and Automation QA Testing Projects
 
-Hi, I'm Sam Ch. I'm learning Manual, API and Automation QA.
+Hi, I'm Sam Chamas. I'm learning Manual, API and Automation QA.
 
 Currently practicing on SauceDemo and building test cases, bug reports, and automation.
 
@@ -15,6 +15,7 @@ Currently practicing on SauceDemo and building test cases, bug reports, and auto
 1. SauceDemo - Login, Cart and Checkout
 2. The Internet - Broken Images and Login
 3. JSONPlaceholder - API Testing with Postman
+4. SauceDemo - Automation with Playwright + Python
 
 ## Project 1: SauceDemo - Manual Testing
 
@@ -79,3 +80,28 @@ Currently practicing on SauceDemo and building test cases, bug reports, and auto
 ### Files
 - `api-testing/postman-tests.md` - All 6 test cases with steps + results
 - `api-testing/api-testing-project1/*.png` - Screenshots as proof of concept
+
+## Project 4: SauceDemo - Automation with Playwright + Python
+
+**Tested App:** https://www.saucedemo.com
+**Date:** Nov 16, 2026
+**Environment:** Playwright + Python + Pytest on Chrome
+
+### Results
+- **Total Tests:** 6
+- **PASS:** 6 (Test 1, 2, 3, 4, 5, 6)
+- **FAIL:** 0
+
+### What Was Tested
+- Test 1 - Valid Login - Goes to Products page
+- Test 2 - Invalid Password - Shows error message
+- Test 3 - Locked Out User - Shows locked out error
+- Test 4 - Empty Login - Shows username required error
+- Test 5 - Add to Cart - Cart badge shows 1, item in cart
+- Test 6 - Complete Checkout - Full flow to Thank you for your order
+
+### How To Run
+- python -m pytest automation/test_login.py -v
+
+### Files
+- `automation/test_login.py` - All 6 automated tests
