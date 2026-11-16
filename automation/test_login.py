@@ -32,3 +32,25 @@ def test_4_empty_login(page: Page):
     # Manual Test 4 - Empty fields should show error
     login(page, "", "")
     expect(page.locator("[data-test='error']")).to_contain_text("Username is required")
+
+def test_5_add_to_cart(page: Page):
+    # Login first, then add backpack to cart
+    login(page, "standard_user", "secret_sauce")
+    page.click("[data-test='add-to-cart-sauce-labs-backpack']")
+    expect(page.locator(".shopping_cart_badge")).to_have_text("1")
+    page.click("[data-test='shopping-cart-link']")
+    expect(page).to_have_url("https://www.saucedemo.com/cart.html")
+    expect(page.locator(".inventory_item_name").first).to_contain_text("Sauce Labs Backpack")
+
+def test_6_complete_checkout(page: Page):
+    # Full flow: Login -> Add to cart -> Checkout -> Complete order
+    login(page, "standard_user", "secret_sauce")
+    page.click("[data-test='add-to-cart-sauce-labs-backpack']")
+    page.click("[data-test='shopping-cart-link']")
+    page.click("[data-test='checkout']")
+    page.fill("[data-test='firstName']", "Sam")
+    page.fill("[data-test='lastName']", "Ch")
+    page.fill("[data-test='postalCode']", "H1A1A1")
+    page.click("[data-test='continue']")
+    page.click("[data-test='finish']")
+    expect(page.locator("[data-test='complete-header']")).to_have_text("Thank you for your order!")
